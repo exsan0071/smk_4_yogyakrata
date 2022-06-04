@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "198146647182",
+    "firebase_url": "https://smartschool-application-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smartschool-application",
+    "storage_bucket": "smartschool-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198146647182:android:afafdf46db6aa0bd3315df",
+        "android_client_info": {
+          "package_name": "com.aricode.watulintang.sma1contoh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198146647182-oi2kkdunkma179eng82jrdo5t1u6ibt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aricode.watulintang.sma1contoh",
+            "certificate_hash": "c0ba2fa7f6a2b14e6b62cb327b9e797c25a5b26c"
+          }
+        },
+        {
+          "client_id": "198146647182-t6bs09o7v2jurcne3a9gkh021683bf7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbHICtv02SYDzjUOSQ0JmfzmZV1SRub7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198146647182-t6bs09o7v2jurcne3a9gkh021683bf7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198146647182:android:8f04bf9f1fbe94e63315df",
+        "android_client_info": {
+          "package_name": "com.aricode.watulintang.smk4yogyakata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198146647182-t6bs09o7v2jurcne3a9gkh021683bf7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbHICtv02SYDzjUOSQ0JmfzmZV1SRub7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198146647182-t6bs09o7v2jurcne3a9gkh021683bf7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198146647182:android:091726dcdab77fe63315df",
+        "android_client_info": {
+          "package_name": "com.aricode.watulintang.smkn1wonosari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198146647182-0ommdfcmhrhjb1dvjst8kshb1vag51hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aricode.watulintang.smkn1wonosari",
+            "certificate_hash": "a53c85091062da7bce5b56c700b530b64d221df7"
+          }
+        },
+        {
+          "client_id": "198146647182-t6bs09o7v2jurcne3a9gkh021683bf7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbHICtv02SYDzjUOSQ0JmfzmZV1SRub7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198146647182-t6bs09o7v2jurcne3a9gkh021683bf7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
