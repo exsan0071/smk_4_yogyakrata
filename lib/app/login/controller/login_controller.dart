@@ -8,6 +8,7 @@ import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 import 'package:sn_progress_dialog/progress_dialog.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../controller/baselink.dart';
 import '../../controller/introduction_creen/controller_ooboarding.dart';
@@ -34,7 +35,15 @@ class LoginController extends GetxController {
     SharedPreferences localStorage = await SharedPreferences.getInstance();
     await localStorage.setString("token", token);
   }
-
+ Future<void> launchURLYt() async {
+    String url =
+        "https://www.youtube.com/watch?v=j1oEow-avjI";
+    if (!await launchUrl(Uri.parse(url),
+        mode: LaunchMode.externalApplication)) {
+      throw 'Could not launch $url';
+    }
+  }
+  
   Future getUserJurusan() async {
     try {
       final response =
@@ -149,7 +158,7 @@ class LoginController extends GetxController {
       print(e.toString());
     }
   }
-
+  
   @override
   void onInit() {
     getUserJurusan();

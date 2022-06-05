@@ -8,9 +8,9 @@ import 'package:get_storage/get_storage.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:smk_4_yogyakrata/app/login/views/login_selected.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../home/views/home.dart';
-import '../login/views/login.dart';
 import '../../app_theme.dart';
 import '../../main.dart';
 
@@ -41,7 +41,7 @@ class _AuthState extends State<Auth> with SingleTickerProviderStateMixin {
             context,
             PageRouteBuilder(
                 pageBuilder: (context, animation, secondartyAnimation) =>
-                    const Login()));
+                    const LoginSelected()));
       });
     }
   }
@@ -160,7 +160,7 @@ class _AuthState extends State<Auth> with SingleTickerProviderStateMixin {
             Center(
               child: Text(
                 'SEKOLAHKITA.Net',
-                style: GoogleFonts.roboto(color: AppTheme.white, fontSize: 20),
+                style: GoogleFonts.fredokaOne(color: AppTheme.white, fontSize: 20),
               ),
             ),
             const SizedBox(
