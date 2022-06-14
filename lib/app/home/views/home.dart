@@ -90,14 +90,14 @@ class _HomeState extends State<Home> {
         builder: (BuildContext context) {
           return AlertDialog(
               title: Text(
-                "Mobile Versi Beta 1.0.3 ⚠ !! ",
+                "Mobile Versi Beta 1.0.4 ⚠ !! ",
                 style: GoogleFonts.roboto(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
                     color: Colors.red),
               ),
               content: Text(
-                "Fitur versi mobile 1.0.3 masih dalam proses pengembangan, beberapa fitur belum dapat diakses melalui Aplikasi, versi full fitur dapat anda akses melalui Web Browser.",
+                "Fitur versi mobile 1.0.4 masih dalam proses pengembangan, beberapa fitur belum dapat diakses melalui Aplikasi, versi full fitur dapat anda akses melalui Web Browser.",
                 textAlign: TextAlign.justify,
                 style: GoogleFonts.roboto(),
               ),

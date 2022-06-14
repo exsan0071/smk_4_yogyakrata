@@ -148,41 +148,7 @@ class _BodyState extends State<Body> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               clipShape(),
-              // Container(
-              //   margin: const EdgeInsets.only(
-              //       left: 30, right: 30, top: 20, bottom: 10),
-              //   child: Center(
-              //     child: Text('Selamat Datang di SMAN 1 Contoh',
-              //         maxLines: 3,
-              //         style: GoogleFonts.inter(
-              //             color: Colors.black,
-              //             fontSize: 16,
-              //             fontWeight: FontWeight.bold)),
-              //   ),
-              // ),
-              // CarouselSlider.builder(
-              //   itemCount: homeC.imgList.length,
-              //   options: CarouselOptions(
-              //     autoPlay: true,
-              //     enlargeCenterPage: true,
-              //   ),
-              //   itemBuilder: (context, index, realIdx) {
-              //     return Container(
-              //       decoration: BoxDecoration(
-              //           borderRadius: BorderRadius.circular(10),
-              //           color: Colors.grey[200],
-              //           image: DecorationImage(
-              //               fit: BoxFit.cover,
-              //               image: AssetImage(
-              //                 homeC.imgList[index],
-              //               ))),
-              //     );
-              //   },
-              // ),
-              // const SizedBox(
-              //   height: 5,
-              // ),
-
+ 
               Container(
                 margin: const EdgeInsets.only(left: 30, right: 30, top: 10),
                 child: Row(
@@ -202,7 +168,7 @@ class _BodyState extends State<Body> {
                             color: const Color.fromARGB(255, 24, 144, 155),
                           ),
                         )),
-                    //IconButton(icon: isExpanded? Icon(Icons.arrow_drop_up, color: Colors.orange[200],) : Icon(Icons.arrow_drop_down, color: Colors.orange[200],), onPressed: _expand)
+                   
                   ],
                 ),
               ),
@@ -1332,7 +1298,8 @@ class _BodyState extends State<Body> {
                 if (snapshot.hasData) {
                   bodyC.foto = snapshot.data!.photo;
                   bodyC.nama = snapshot.data!.namasiswa;
-                  return Row(
+                  return 
+                  Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
@@ -1432,7 +1399,8 @@ class _BodyState extends State<Body> {
                     ],
                   );
                 } else {
-                  return Row(
+                  return 
+                  Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
